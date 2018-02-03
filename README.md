@@ -6,4 +6,4 @@ simple copy to file to clipboardf
 
 
 ## Usage
-`#> ftc file.txt
+`#> ftc file.txt`
