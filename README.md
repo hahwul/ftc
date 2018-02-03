@@ -8,4 +8,5 @@ simple copy to file to clipboardf
 `#> ./install.sh`
 
 ## Usage
-`#> ftc file.txt`
+`#> ftc sample.txt`
+`#> ruby ftc.rb sample.txt`
