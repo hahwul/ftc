@@ -16,4 +16,4 @@ data = read_file(fname)
 
 Clipboard.copy(data)
 
-puts "[+] Success copy "+data.lenth.to_s+" length data to clipboard"
+puts "[+] Success copy "+data.length.to_s+" length data to clipboard"
