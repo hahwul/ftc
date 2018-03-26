@@ -8,6 +8,9 @@ def read_file(file_name)
 end
 
 argument = ARGV
+if argument.size == 0
+  exit()
+end
 
 #[TODO] add multi argument and copy (multi copy)
 
