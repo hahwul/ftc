@@ -7,12 +7,20 @@ def read_file(file_name)
   return data
 end
 
+def usage
+  puts "Usage:: ftc.rb [file]"
+end
+
+#[TODO] Argument parsing?
+#       -h, --help, -v, --version?
+
 argument = ARGV
 if argument.size == 0
+  usage()
   exit()
 end
 
-#[TODO] add multi argument and copy (multi copy)
+#[TODO] Add multi argument and copy (multi copy)
 
 fname = argument.pop
 data = read_file(fname)
